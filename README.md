@@ -157,11 +157,10 @@ Serve the generated summary image containing total countries, top 5 by GDP, and 
    Edit `.env` with your database credentials:
 
    ```env
-   DB_HOST=localhost
-   DB_USER=root
-   DB_PASSWORD=your_password
-   DB_NAME=testdb
-   DB_DIALECT=mysql
+   MYSQLDATABASE=localhost
+   MYSQLUSER=root
+   MYSQLPASSWORD=your_password
+   MYSQLDATABASE=testdb
    PORT=5000
    REST_COUNTRIES_API_URL=https://restcountries.com/v2/all?fields=name,capital,region,population,flag,currencies
    EXCHANGE_RATE_API_URL=https://open.er-api.com/v6/latest/USD
